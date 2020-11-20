@@ -9,10 +9,12 @@ if a == "Y":
     komm = input("ВВедите комманду: ");
 if komm == "Progi":
     print("")
-    print("Weeman(Фишинг страниц)")
+    print("Zphisher(Фишинг страниц)")
     print("Пример ввода комманды: Progi")
     print("");
     pr = input("ВВедите комманду: ");
+if pr == "Zphisher":
+    print("git clone https://github.com/htr-tech/zphisher")
 if komm == "Options":
     print("Скрипт-программа `HackYou` для `Termux`");
     print("Язык(Language): " + lang);
