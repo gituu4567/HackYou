@@ -10,8 +10,16 @@ if a == "Y":
 if komm == "Progi":
     print("__________________________________________")
     print("Weeman(Фишинг страниц)")
+    print("Ngrok")
     print("Пример ввода комманды: Progi")
     print("__________________________________________")9
     pr = input("ВВедите комманду: ");
+if pr == "Weeman":
+    apt-get install Weeman
+    print("Установка завершилась пиши`cd Weeman`")
+if pr == "Ngrok":
+    print("Установка...")
+    apt-get install Ngrok
+    print("Установка завершилась пиши`cd Ngrok`")
 if a == "N":
     print("ПЫСРВР")
