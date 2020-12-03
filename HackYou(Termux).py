@@ -22,9 +22,17 @@ if komm == "Progi":
 #all programs
 #все программы
 if pr == "Zphisher":
-    print("git clone https://github.com/htr-tech/zphisher")
+#Zphisher
+    apt-get install zphisher
+    print("Установка завершина пиши `cd zpisher`")
+#Instashell
 if pr == "Instashell":
-    print("Git clone https://github.com/maxrooted/instashell")
+    apt-get install Instashell
+    rint("Установка завершина пиши `cd Instashell`")
+#NGROK
+if pr == "NGROK":
+    apt-get install ngrok
+    print("Установка завершена пиши `cd ngrok`)
 #Menu options
 #Меню настроек
 if komm == "Options":
